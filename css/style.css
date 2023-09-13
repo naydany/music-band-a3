@@ -36,7 +36,7 @@ i {
 }
 
 .main-name>h2 {
-    width: 30px;
+    width: 50px;
     font-size: 14px;
 }
 
@@ -44,7 +44,7 @@ i {
     margin-top: 8px;
     margin-right: 10px;
     width: 90px;
-    height: 85px;
+    height: 80px;
 }
 
 .nav-left img,
