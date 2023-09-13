@@ -1,0 +1,1116 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* ______nav_______ */
+nav {
+    display: flex;
+    height: 15vh;
+    position: fixed;
+    background: white;
+    width: 100%;
+    border-bottom: 5px solid orange;
+}
+
+.text-logo {
+    display: flex;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+
+}
+
+i {
+    color: rgb(78, 183, 148);
+    margin-bottom: 20px;
+
+}
+
+.main-name>h2 {
+    width: 20px;
+}
+
+.nav-left>img {
+    margin-top: 8px;
+    margin-right: 10px;
+    width: 90px;
+    height: 85px;
+}
+
+.nav-left img,
+.main-name span {
+    margin-left: 15px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+
+}
+
+.nav-right a {
+    margin: 35px 20px 0 0;
+    font-size: 17px;
+}
+
+/* _____header______ */
+
+header {
+    height: 90vh;
+    background-image: url(/image/COVER.PN.jpg);
+    background-repeat: repeat;
+    background-size: 1600px 800px;
+    padding: 20vh;
+
+}
+
+.header-content {
+    background: rgba(0, 0, 0, 0.386);
+    width: 80%;
+}
+
+.header-content>h1 {
+    margin: 0px;
+    color: white;
+    padding: 60px 0 0 60px;
+    font-size: 40px;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header p {
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    width: 60%;
+}
+
+/* _____container_____ */
+
+/* ______value________ */
+
+.content-value {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content-value h2 {
+    color: rgb(43, 43, 157);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 20px 0;
+}
+
+.content-value>h2 {
+    margin-top: 50px;
+}
+
+.mian-value {
+    display: flex;
+}
+
+.card-value1,
+.card-value2,
+.card-value3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 25vh;
+    margin-top: 15px;
+}
+
+.card-value1>.card1,
+.card-value1>.card2,
+.card-value2>.card3,
+.card-value2>.card4,
+.card-value3>.card5 {
+    background-color: rgb(224, 233, 244);
+    width: 45%;
+    border-radius: 20px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+    display: flex;
+}
+
+.card1>.image1>img,
+.card2>.image2>img,
+.card3>.image3>img,
+.card4>.image4>img,
+.card5>.image5>img {
+    background-color: white;
+    /* border: 1px solid orange; */
+    padding: 12px;
+    border-radius: 50px;
+    margin: 40px 0 0 6px;
+}
+
+.card1>.image1,
+.card2>.image2,
+.card3>.image3,
+.card4>.image4,
+.card5>.image5 {
+    /* border-bottom: 1px solid black; */
+    border-radius: 20px 0 0 20px;
+    padding: 0 10px 0 10px;
+    background-color: rgba(21, 83, 169, 0.48);
+}
+
+.card1>.describe1>p,
+.card2>.describe2>p,
+.card3>.describe3>p,
+.card4>.describe4>p,
+.card5>.describe5>p {
+    width: 80%;
+    margin-left: 45px;
+}
+
+/* ______canteen______ */
+.content-canteen {
+    background-color: rgba(161, 160, 160, 0.123);
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.content-canteen>h2 {
+    color: rgb(43, 43, 157);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.about-canteen {
+    display: flex;
+    height: 550px;
+}
+
+.canteen-schedule {
+    width: 50%;
+    margin: 10px;
+}
+
+.canteen-schedule>.para {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid gray;
+    padding: 30px;
+}
+
+thead {
+    background-color: rgba(10, 10, 154, 0.599);
+}
+
+thead>tr>th {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.canteen-food {
+    width: 50%;
+    margin-left: 100px;
+
+}
+
+.canteen-food>.text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* __________sport________ */
+.content-sport {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(161, 160, 160, 0.123);
+}
+
+.sport-session {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    padding-bottom: 45px;
+}
+
+.card-sport1>img,
+.card-sport2>img,
+.card-sport3>img,
+.card-sport4>img {
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: orange;
+}
+
+.head-text {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+}
+
+.head-text>h2 {
+    color: rgb(43, 43, 157);
+}
+
+.head-text>p {
+    color: white;
+}
+
+/* _______aerobic________ */
+.content-aerobic {
+    display: flex;
+    margin-top: 50px;
+    height: 90vh;
+}
+
+.head-aerobic {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head-aerobic>h2 {
+    color: rgb(43, 43, 157);
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.head-aerobic>p {
+    margin-left: 40px;
+}
+
+.head-aerobic>h4 {
+    margin-left: 40px;
+}
+
+.head-aerobic>ul>li {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.main {
+    width: 60%;
+    margin-top: 50px;
+}
+
+.more-aero1 {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 10px; */
+}
+
+.more-aero2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.party1>img,
+.party2>img,
+.party3>img,
+.party4>img,
+.party5>img,
+.party6>img {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: orange;
+
+}
+
+.party1>p,
+.party2>p,
+.party3>p,
+.party4>p,
+.party5>p,
+.party6>p {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* ______contact_______ */
+.content-contact {
+    background-color: antiquewhite;
+    height: 94vh;
+    background-image: url(/image/My-image.jpg);
+    background-size: 1500px 700px;
+    margin-top: 80px;
+    display: flex;
+    /* width: 100%; */
+
+}
+
+.contact {
+    color: white;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.402);
+    height: 94vh;
+}
+
+.contact>h1 {
+    font-size: 50px;
+    margin: 60px 0 30px 80px;
+}
+
+.contact>p {
+    margin: 0 0 0 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 60%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.402);
+    height: 94vh;
+}
+
+form>h2 {
+    color: white;
+    margin-top: 60px;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(93, 89, 89, 0.62);
+    padding: 40px 20px 40px 20px;
+    margin-left: 40px;
+}
+
+label {
+    color: white;
+}
+
+.text,
+.email,
+.submit,
+.message {
+    margin-top: 10px;
+}
+
+.text,
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.text>input[type='text'],
+.email>input[type='email'] {
+    width: 370px;
+    padding: 8px;
+}
+
+.submit {
+    display: flex;
+    justify-content: end;
+    padding: 5px 0;
+}
+
+.submit>input[type='submit'] {
+    padding: 7px 0;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(12, 181, 181)
+}
+
+/* ______map_______ */
+
+.content-mab {
+    height: 80vh;
+    display: flex;
+    background-color: rgb(154, 152, 152);
+    color: white;
+}
+
+.map {
+    width: 30%;
+    height: 70%;
+    margin: 80px 0 0 80px;
+
+}
+
+.map>span {
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+
+.map>p {
+    margin: 20px 0 0 50px;
+}
+
+.gmap_iframe {
+    width: 750px;
+    height: 490px;
+}
+
+.gmap_canvas {
+    margin-top: 4px;
+    margin-left: 110px;
+}
+
+/* ______footer_______ */
+
+footer {
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(38, 144, 186, 0.793);
+    color: white;
+}
+
+.PN-value,
+.major,
+.department,
+.social {
+    background-color: rgba(255, 166, 0, 0.77);
+    height: 75%;
+    width: 14%;
+    border-radius: 10px;
+    padding-left: 25px;
+    margin-top: 40px;
+}
+
+.PN-value>h2,
+.major>h2,
+.department>h2,
+.social>h2 {
+    color: rgb(43, 43, 157);
+}
+
+.fb {
+    display: flex;
+}
+
+.lin {
+    display: flex;
+}
+
+.tw {
+    display: flex;
+}
+
+.tw>img {
+    background-color: teal;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+}
+
+.fb>img,
+.lin>img {
+    margin: 10px 10px 10px 0;
+}
+
+.tw>a,
+.fb>a,
+.lin>a {
+    margin-top: 20px;
+}
+
+/* responsive */
+
+@media (max-width:768px) {
+    nav {
+        height: 10vh;
+    }
+
+    .nav-left {
+        width: 20%;
+    }
+
+    .text-logo {
+        display: inline;
+        flex-direction: column;
+    }
+
+    .nav-right {
+        width: 80%;
+    }
+
+    header {
+        height: 38vh;
+        width: 750px;
+
+    }
+
+    .main-name>h2 {
+        display: none;
+    }
+
+    .nav-left>img {
+        margin-top: 15px;
+    }
+
+    header {
+        height: 70vh;
+        background-size: 1400px 700px;
+        padding: 0;
+    }
+
+    .content-value {
+        height: 92vh;
+
+
+    }
+
+    .card-value1>.card1,
+    .card-value1>.card2,
+    .card-value2>.card3,
+    .card-value2>.card4,
+    .card-value3>.card5 {
+        height: 200px;
+    }
+
+    .about-canteen {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .canteen-schedule {
+        width: 50%;
+        margin: 10px;
+    }
+
+    table {
+        margin-left: 30px;
+    }
+
+    td,
+    th {
+        border: 1px solid gray;
+        padding: 20px;
+
+    }
+
+    .canteen-food {
+        width: 80%;
+
+
+    }
+
+    .menu1,
+    .menu2 {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 40px;
+    }
+
+    .sport-session>.card-sport4 {
+        display: none;
+    }
+
+    .card-sport1>img,
+    .card-sport2>img,
+    .card-sport3>img {
+        width: 220px;
+        height: 180px;
+    }
+
+    .content-sport {
+        height: 50vh;
+
+    }
+
+    .content-aerobic {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .head-aerobic>h4,
+    .head-aerobic>ul {
+        display: none;
+    }
+
+    .head-aerobic {
+        width: 90%;
+    }
+
+    .head-aerobic>h2 {
+        /* margin-left: 150px; */
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .head-aerobic>p {
+        margin-left: 60px;
+    }
+
+    .main {
+        width: 100%;
+        margin-top: 50px;
+        /* margin: 5px; */
+    }
+
+    .more-aero1 {
+        display: flex;
+        justify-content: space-evenly;
+        /* margin-top: 10px; */
+    }
+
+    .more-aero2 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+
+    .part1>img,
+    .part2>img,
+    .part3.img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .content-contact {
+        height: 70vh;
+        background-size: 1300px 700px;
+    }
+
+    .account {
+        background-color: rgba(93, 89, 89, 0.62);
+        padding: 40px 20px 40px 20px;
+        /* margin-left: 40px; */
+    }
+
+    .contact {
+        height: 70vh;
+    }
+
+    .contact>h1 {
+        font-size: 30px;
+        margin-left: 30px;
+        display: flex;
+        margin-top: 180px;
+    }
+
+    .contact>p {
+        margin: 0 0 0 30px;
+    }
+
+    .content-mab {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    .gmap_iframe {
+        width: 750px;
+        height: 400px;
+    }
+
+    .gmap_canvas {
+        /* margin-top: 4px; */
+        margin-left: 8px;
+    }
+
+    .map {
+        width: 70%;
+        height: 70%;
+        margin: 10px 0 0 100px;
+
+    }
+
+    footer {
+        height: 50vh;
+        display: flex;
+        color: white;
+
+    }
+
+    .PN-value,
+    .major,
+    .department,
+    .social {
+
+        height: 67%;
+        width: 19%;
+        border-radius: 10px;
+        padding-left: 25px;
+        margin-top: 40px;
+    }
+
+    .PN-value>h2,
+    .major>h2,
+    .department>h2,
+    .social>h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:320px) {
+    nav {
+        height: 10vh;
+        
+    }
+    .main-name>h2 {
+        width: 20px;
+    }
+    .nav-left {
+        width: 20%;
+    }
+
+    .text-logo {
+        display: inline;
+        flex-direction: column;
+    }
+
+    .nav-right {
+        width: 30%;
+        display: none;
+    }
+
+    header {
+        height: 65vh;
+        width: 320px;
+    }
+
+    .main-name>h2 {
+        display: none;
+    }
+
+    .content-value {
+        height: 135vh;
+    }
+
+    .card-value1,
+    .card-value2,
+    .card-value3 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+        height: 25vh;
+        margin-top: 15px;
+    }
+
+    .card-value1>.card1,
+    .card-value1>.card2,
+    .card-value2>.card3,
+    .card-value2>.card4,
+    .card-value3>.card5 {
+        width: 85%;
+    }
+
+    .header-content {
+        background: rgba(0, 0, 0, 0.386);
+        width: 80%;
+        height: 50%;
+    }
+
+    .header-content>p {
+        display: none;
+    }
+
+    .header-content>h1 {
+        width: 90%;
+        padding-top: 120px;
+        font-size: 30px;
+    }
+    .card-value1 {
+        height: 50vh;
+    }
+
+    .card-value1>.card1 {
+        width: 90%;
+        margin: 20px 0 0 15px;
+        height: 55%;
+    }
+
+    .card-value1>.card2 {
+        width: 90%;
+        margin: 20px 0 0 15px;
+        height: 55%;
+    }
+
+    .card-value2 {
+        height: 50vh;
+    }
+
+    .card-value2>.card3 {
+        width: 90%;
+        margin: 20px 0 0 15px;
+        height: 50%;
+    }
+
+    .card-value2>.card4 {
+        width: 90%;
+        margin: 20px 0 0 15px;
+        /* height: 55%; */
+    }
+
+    .card-value3 {
+        height: 20vh;
+
+    }
+
+    .card-value3>.card5 {
+        width: 90%;
+        margin: 20px 0 0 15px;
+    }
+
+    .card1>.describe1>p,
+    .card2>.describe2>p,
+    .card3>.describe3>p,
+    .card4>.describe4>p,
+    .card5>.describe5>p {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .card1>.image1>img,
+    .card2>.image2>img,
+    .card3>.image3>img,
+    .card4>.image4>img,
+    .card5>.image5>img {
+        margin: 70px 0 0 6px;
+    }
+
+    .canteen-schedule {
+        display: none;
+    }
+
+    .menu1>.food1>img,
+    .menu1>.food2>img,
+    .menu2>.food1>img,
+    .menu2>.food2>img {
+        width: 120px;
+        height: 80px;
+    }
+
+    .content-canteen {
+        height: 50vh;
+        margin-top: 20px;
+    }
+
+    .canteen-food {
+        margin-left: 30px;
+    }
+
+    .food1>img {
+        margin-right: 22px;
+    }
+
+    .food1>p {
+        font-size: smaller;
+    }
+
+    /* .text>caption>b{
+        display: none;
+    } */
+    .content-sport {
+        height: 40vh;
+    }
+
+    .card-sport1>img,
+    .card-sport2>img,
+    .card-sport3>img {
+        width: 120px;
+        height: 80px;
+    }
+
+    .sport-session>.card-sport3 {
+        display: none;
+    }
+
+    .content-aerobic {
+        height: 52vh;
+    }
+
+    .more-aero1>.party3,
+    .more-aero2>.party6 {
+        display: none;
+    }
+
+    .more-aero1>.party1>img,
+    .more-aero1>.party2>img {
+        width: 120px;
+        height: 80px;
+    }
+
+    .more-aero2>.party4>img,
+    .more-aero2>.party5>img {
+        width: 120px;
+        height: 80px;
+    }
+
+    .more-aero2>.party5>img {
+        margin-left: 10px;
+    }
+
+    .head-aerobic>h2 {
+        color: rgb(43, 43, 157);
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .head-aerobic>p {
+        margin-left: 40px;
+    }
+
+    .head-aerobic>h4 {
+        margin-left: 40px;
+    }
+
+    .main {
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .content-contact {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact {
+        height: 60vh;
+        height: 10%;
+    }
+
+    .contact>p {
+        display: none;
+    }
+
+    .contact>h1 {
+        font-size: 30px;
+        margin: 20px 0 0 80px;
+    }
+
+    form {
+        width: 10%;
+        height: 8%;
+        height: 90vh;
+        margin-left: 40px;
+    }
+
+    form>h2 {
+        margin-left: 200px;
+    }
+
+    .account {
+        background-color: rgba(93, 89, 89, 0.62);
+        padding: 20px 20px 20px 20px;
+        margin-left: 210px;
+    }
+
+    .text>input[type='text'],
+    .email>input[type='email'] {
+        width: 250px;
+        padding: 8px;
+    }
+    .message>textarea{
+        width: 250px;
+        padding: 8px;
+    }
+    .submit {
+        display: flex;
+        justify-content: end;
+        padding: 5px 0;
+    }
+
+    .submit>input[type='submit'] {
+        width: 50px;
+    }
+    .gmap_iframe{
+        display: none;
+    }
+    .content-mab{
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .map>img{
+    
+        font-size: 10px;
+    }
+    .map>span {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 135vh;
+        
+    }
+    .PN-value,
+    .major,
+    .department,
+    .social {
+
+        height: 67%;
+        width: 60%;
+        padding-left: 40px;
+        margin-left: 45px;
+    }
+    .map {
+        width: 90%;
+        height: 20%;
+        margin: 10px 0 0 10px;
+    
+    }
+}
