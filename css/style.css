@@ -36,7 +36,8 @@ i {
 }
 
 .main-name>h2 {
-    width: 20px;
+    width: 30px;
+    font-size: 14px;
 }
 
 .nav-left>img {
